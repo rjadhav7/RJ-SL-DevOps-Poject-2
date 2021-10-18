@@ -15,3 +15,6 @@ Step 2: terraform init
 Step 3: terraform plan
 Step 4: terraform apply -auto-approve
 Step 5: Run ansible play book to install the Jenkins, Python3 and Java. (ForEg. ansible-playbook installJenkins.yml -i inventory.txt)
+In out of terraform you will get Jenminks-Master IP like http://Jenkins-MasterIP:8080
+In output of ansible-playbook you will get jenkins password
+Your Jenkins-Master instance will be ready for configuration
