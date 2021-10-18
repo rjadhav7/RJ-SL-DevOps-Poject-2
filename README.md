@@ -10,3 +10,8 @@ o	cred.tf
 o	providers.tf
 o	variables.tf
 o	installJenkins.yml
+Step 1: ssh-jeygen to generate the publick key for password less authentication to install packages on remote client
+Step 2: terraform init
+Step 3: terraform plan
+Step 4: terraform apply -auto-approve
+Step 5: Run ansible play book to install the Jenkins, Python3 and Java. (ForEg. ansible-playbook installJenkins.yml -i inventory.txt)
