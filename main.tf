@@ -49,11 +49,6 @@ resource "aws_instance" "JenkinsEC2" {
     private_key = "${file(var.ssh_key_private)}"
     host        = self.public_ip
   }
-  #Run Ansible Play book to install Jenkins, python3 & Java
-  provisioner "local-exec" {
-    command = "ansible-playbook installJenkins.yml -i inventory.txt"
-  }
-
 }
 
 output "jenkins_endpoint" {
