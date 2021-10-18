@@ -1,13 +1,11 @@
 provider "aws" {
 
-  access_key = "your aws access_key"
+  access_key = "here use your aws access_key"
 
-  secret_key = "your aws secret_key"
+  secret_key = "here use your aws secret_key"
 
-  token      = "your aws token"
+  token      = "here use your aws token"
 
   region     = "us-east-1"
-
-
 
 }
