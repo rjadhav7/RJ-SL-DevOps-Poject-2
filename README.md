@@ -11,7 +11,7 @@ o	providers.tf
 o	variables.tf
 o	installJenkins.yml
 
-Step 1: Run ssh-jeygen to generate the publick key for password less authentication to install packages on remote client (Eg.Jenkins-Master)
+Step 1: Run ssh-keygen to generate the publick key for password less authentication to install packages on remote client (Eg.Jenkins-Master)
 Step 2: terraform init
 Step 3: terraform plan
 Step 4: terraform apply -auto-approve
