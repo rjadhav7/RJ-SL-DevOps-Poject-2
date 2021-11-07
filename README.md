@@ -1,4 +1,4 @@
-# RJ-SL-DevOps-Poject-2
+# RJ-SL-DevOps-Project-2
 # Automating Infrastructure using Terraform
 # Project prerequisites: -
 •	Install ansible 2.9.26 (Run ssh-keygen to generate the publick key to bootstarping)
