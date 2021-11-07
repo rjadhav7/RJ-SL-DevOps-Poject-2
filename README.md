@@ -1,5 +1,6 @@
 # RJ-SL-DevOps-Poject-2
-Project prerequisites: -
+# Automating Infrastructure using Terraform
+# Project prerequisites: -
 •	Install ansible 2.9.26 (Run ssh-keygen to generate the publick key to bootstarping)
 •	Install Terraform 1.0.9 + provider registry.terraform.io/hashicorp/aws v3.62.0
 •	Replace you own credential in cred.tf 
